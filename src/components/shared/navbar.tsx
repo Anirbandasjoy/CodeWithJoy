@@ -58,7 +58,7 @@ const Navbar = () => {
                     onClick={() => setIsMenuOpen(false)}
                     className={`group flex items-center gap-2 px-3 py-2 rounded-md text-sm font-medium transition-all duration-200 ease-in-out ${
                       active
-                        ? "text-slate-900 bg-blue-100"
+                        ? "text-slate-900 bg-slate-200"
                         : "text-gray-700 hover:text-slate-800 hover:bg-blue-50"
                     }`}
                   >
