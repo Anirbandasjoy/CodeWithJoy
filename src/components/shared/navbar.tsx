@@ -145,7 +145,7 @@ const Navbar = () => {
               : "max-h-0 opacity-0 invisible overflow-hidden"
           }`}
         >
-          <div className="px-2 pt-2 pb-3 space-y-1 bg-white/95 backdrop-blur-sm rounded-lg mt-2 border-gray-100">
+          <div className="px-2 pt-2 pb-3 space-y-1 bg-white/5 rounded-lg mt-2 border-gray-100">
             {navItems.map((item) => {
               const IconComponent = item.icon;
               const active = isActive(item.href);

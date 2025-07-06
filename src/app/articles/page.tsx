@@ -4,7 +4,7 @@ import React from "react";
 
 const articleLinks = [
   "https://github.com/Anirbandasjoy/multiple-github-account-setup",
-  "https://nextjs.org/docs/pages/building-your-application/routing/api-routes",
+  "https://medium.com/coders-capsule/getting-started-with-backend-development-8ce55585e860",
 ];
 
 const ArticlesPage = () => {
