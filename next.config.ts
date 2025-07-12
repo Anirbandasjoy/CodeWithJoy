@@ -13,6 +13,7 @@ const nextConfig: NextConfig = {
       "placehold.co",
       "www.qrinux.com",
       "miro.medium.com",
+      "i.ytimg.com",
     ],
   },
 };

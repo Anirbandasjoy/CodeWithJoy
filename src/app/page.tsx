@@ -1,5 +1,6 @@
 import Banner from "@/components/home/banner";
 import MaxWidth from "@/components/shared/maxWidth";
+import Video from "@/components/video/Video";
 import React from "react";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
       <MaxWidth className="px-4 lg:px-0">
         <Banner />
+        <Video />
       </MaxWidth>
     </div>
   );
