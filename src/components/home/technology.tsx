@@ -27,6 +27,7 @@ import {
   SiNestjs,
   SiUbuntu,
 } from "react-icons/si";
+import Header from "../shared/Header";
 
 type SkillLevel = "Beginner" | "Intermediate" | "Advanced";
 
@@ -201,13 +202,11 @@ const levelColors: Record<SkillLevel, string> = {
 const Technology = () => {
   return (
     <section id="skills" className=" mx-auto space-y-8 text-sm sm:text-base">
-      <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 mb-2">
-        Technology
-      </h2>
-      <p className="text-gray-600 mb-8 max-w-xl">
-        Technologies and tools I frequently use for building scalable and
-        efficient web applications.
-      </p>
+      <Header
+        title="Technology"
+        subtitle="Technologies and tools I frequently use for building scalable and
+        efficient web applications."
+      />
 
       {categories.map(({ title, skills }) => (
         <div key={title}>

@@ -30,7 +30,7 @@ export default function RootLayout({
     <html lang="en">
       <link rel="shortcut icon" href={logo.src} type="image/x-icon" />
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col `}
       >
         <header>
           <MaxWidth>
